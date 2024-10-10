@@ -16,7 +16,7 @@ Meningen med eksamen er ikke at bygge den mest sikre app, men handler om at bygg
 
 - SQLlite
 
-## Projekt krav:
+# Projekt krav:
 
 - Your project source codeshould be documented.(Commets in your code.)
 - Multilevel (privileges) login with backend authentication.

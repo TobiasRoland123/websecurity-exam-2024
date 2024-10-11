@@ -12,15 +12,23 @@ Meningen med eksamen er ikke at bygge den mest sikre app, men handler om at bygg
 
 ## Backend:
 
-- express.js
+- node.js & express.js
 
 ## Database:
 
 - SQLlite
 
+## Reverse Proxy
+
+- Nginx
+
+## Server
+
+- Apache
+
 # Projekt krav:
 
-- Your project source codeshould be documented.(Commets in your code.)
+- Your project source code should be documented.(Commets in your code.)
 - Multilevel (privileges) login with backend authentication.
 - New user registration.
 - Data stored in cookie or other form (localStorage etc.)

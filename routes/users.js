@@ -23,6 +23,12 @@ router.post('/', (req, res) => {
   res.send('Create User');
 });
 
+const users = [
+  { name: 'John', age: 25 },
+  { name: 'Jane', age: 26 },
+  { name: 'Jake', age: 27 },
+];
+
 /* Det er vigtigt at sætte sine dynamic routes til sidst da de ellers kan blive overskrevet af static routes hvis de ligger efter */
 
 router
@@ -41,12 +47,6 @@ router
   .delete((req, res) => {
     res.send(`Delete User ${req.params.id}`);
   });
-
-const users = [
-  { name: 'John', age: 25 },
-  { name: 'Jane', age: 26 },
-  { name: 'Jake', age: 27 },
-];
 
 /* Når vi tilføjer denne til vores "id" route så kører den dette stykke kode hver gang en ad "id" routes bliver besøgt.
 Det vil sige at vi f.eks. som her kan sørge for at "user" er tilgængelig på req objektet i alle user routes*/

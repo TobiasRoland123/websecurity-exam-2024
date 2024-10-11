@@ -22,10 +22,6 @@ Meningen med eksamen er ikke at bygge den mest sikre app, men handler om at bygg
 
 - Nginx
 
-## Server
-
-- Apache
-
 # Projekt krav:
 
 - Your project source code should be documented.(Commets in your code.)

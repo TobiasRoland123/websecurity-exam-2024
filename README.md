@@ -4,6 +4,10 @@ https://docs.google.com/document/d/1zhHv--uJZK8SiKhutJ38LwkiVjUZzOfzQFmyc2ohXlE/
 
 Meningen med eksamen er ikke at bygge den mest sikre app, men handler om at bygge en app hvor vi er beviste om hvilke security issues vi tager hånd om og hvordan vi har gjort det i koden.
 
+# Backstory
+
+Mini Instagram - brugere & upload af billeder. 
+
 # Techstack
 
 ## Frontend:

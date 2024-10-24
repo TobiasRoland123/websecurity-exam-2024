@@ -6,10 +6,10 @@ import productRoutes from './routes/product';
 const app: Express = express();
 app.use(helmet());
 
-const allowedOrigins = ['http://127.0.0.1:9292'];
+const allowedOrigins = [''];
 app.use(cors({
   origin: allowedOrigins,
-  methods: ['GET'],
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true,
 }));
 

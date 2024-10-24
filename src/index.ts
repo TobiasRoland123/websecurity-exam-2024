@@ -39,6 +39,3 @@ app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
 
-
-// CSV task
-// would make a new route, that would take a csv file as input, and then parse it and update the database row(s) with the right product_id.

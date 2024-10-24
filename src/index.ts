@@ -1,7 +1,7 @@
 import express, {Request, Response, Express, NextFunction} from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
-import productRoutes from './routes/product';
+import usersRoutes from './routes/users';
 
 const app: Express = express();
 app.use(helmet());
@@ -23,7 +23,7 @@ app.get('/', (req: Request, res: Response) => {
 }   );
 
 // Product data routes 
-app.use('/api/products', productRoutes);
+app.use('/api/users', usersRoutes);
 
 
 

@@ -1,12 +1,18 @@
 # websecurity-exam-2024
+
 google docs:
+
+Web security
 https://docs.google.com/document/d/1zhHv--uJZK8SiKhutJ38LwkiVjUZzOfzQFmyc2ohXlE/edit?usp=sharing
+
+Dev Env
+https://docs.google.com/document/d/1jg32oAz5h-r5EcQpjM38zYn_PFB_8mQtPGBN2JKVyQQ/edit?usp=sharing
 
 Meningen med eksamen er ikke at bygge den mest sikre app, men handler om at bygge en app hvor vi er beviste om hvilke security issues vi tager hånd om og hvordan vi har gjort det i koden.
 
 # Backstory
 
-Mini Instagram - brugere & upload af billeder. 
+Mini Instagram - brugere & upload af billeder.
 
 # Techstack
 
